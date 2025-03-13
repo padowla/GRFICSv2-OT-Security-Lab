@@ -95,3 +95,8 @@ The workstation VM is an Ubuntu 16.04 machine with software used for programming
 8. If you downloaded a VM, the PLC should start on boot. If not, log into plc VM, cd into the OpenPLC_v2 directory, and run `sudo nodejs server.js`
 
 9. Point your internet browser to the IP address of the simulation VM (default 192.168.95.10) to view the visualization.
+
+#### Modification from original repo
+1. Keyboard layout of all machine changed to IT
+2. Set up static IP addresses:
+3. Installed some useful tools for network/os troubleshooting
