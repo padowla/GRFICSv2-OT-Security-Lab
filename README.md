@@ -73,6 +73,9 @@ The workstation VM is an Ubuntu 16.04 machine with software used for programming
    - pfSense Adapter 1 => 192.168.90.0/24
    - pfSense Adapter 2 => 192.168.95.0/24
 
+![image](https://github.com/user-attachments/assets/07293e56-16f1-452f-b3a7-d4cbf5dc2b56)
+
+
 5. Start all the VMs. Attention, it is important to follow a boot order for the vm:
    - First start the VMs in the 192.168.95.0/24 subnet including pfSense and wait for the completation of the boot procedure
    - Then start the ScadaBR VM
