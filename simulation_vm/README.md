@@ -60,4 +60,13 @@ where [NIC] is the name of your network, most likely enp0s3
 
 2. Restart networking: `sudo systemctl restart networking`
 
+### Python Script boot execution
+In the original repository, there was a Bash script `run_all.sh` calling several Python scripts that's running at boot, that brings within minutes of VM startup the internal plant into destruction. To find it i've used the following command in order to shows all available drives on the system, regardless of whether they are active or not:
+`systemctl list-unit-files`
+![image](https://github.com/user-attachments/assets/2b271bd7-9379-4c89-8abf-9d6814add3b9)
+Reading the unit definition with `systemctl cat grfics.service` we see the script:
+![image](https://github.com/user-attachments/assets/1f5a98e8-bab6-43be-9593-830aa8e80eff)
+I've modified the Unit in order to execute only the binary file that start Unity WebGL simulation:
+![image](https://github.com/user-attachments/assets/717b5bff-fda5-4bbc-9b0b-f4616bb4a5fd)
+![image](https://github.com/user-attachments/assets/b5d00896-3daf-47df-9241-abe297d23952)
 
