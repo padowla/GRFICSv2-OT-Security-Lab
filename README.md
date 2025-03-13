@@ -73,7 +73,8 @@ The workstation VM is an Ubuntu 16.04 machine with software used for programming
    - pfSense Adapter 1 => 192.168.90.0/24
    - pfSense Adapter 2 => 192.168.95.0/24
 
-![image](https://github.com/user-attachments/assets/07293e56-16f1-452f-b3a7-d4cbf5dc2b56)
+![image](https://github.com/user-attachments/assets/3c3f44b4-252c-49b9-b75f-5ab32e732134)
+
 
 
 5. Start all the VMs. Attention, it is important to follow a boot order for the vm:
